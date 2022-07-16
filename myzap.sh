@@ -143,5 +143,11 @@ pm2 save
 
 cd && rm -rf install_myzap
 
-history -c
+### FIM INSTALAÇÃO OWENBOT ###
+
+whiptail --title "Instalacao MyZap by OwenBrasil - (27 99236-9908)" --msgbox "FIM DA INSTALAÇÃO! Apoie nosso projeto! Segue nosso PICPAY: @owenzap" --fb 10 70
+	[[ $(whoami) != 'root' ]] && {
+		whiptail --title "logue-se como ROOT" --msgbox "comando: su" --fb 10 70
+		exit;
+	}
 
