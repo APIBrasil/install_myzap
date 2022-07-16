@@ -8,5 +8,5 @@
 # FAZENDO DOWNLOAD DO INSTALADOR & INICIANDO A INSTALAÇÃO API MYZAP 2.0:
 
 ```bash
-sudo apt install -y git && git clone https://github.com/owenbrasil/install_myzap.git && sudo chmod -R 777 ./install_myzap && cd ./install_myzap && sudo ./myzap.sh
+sudo apt install -y git && rm - rf install_myzap && git clone https://github.com/owenbrasil/install_myzap.git && sudo chmod -R 777 ./install_myzap && cd ./install_myzap && sudo ./myzap.sh
 ```
